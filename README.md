@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Robot Vision - Kiwi Presentation
 
-# Run and deploy your AI Studio app
+This is a 3D presentation app for Kiwi, an AI-powered real estate solution.
 
-This contains everything you need to run your app locally.
+## How to view the website on GitHub
 
-View your app in AI Studio: https://ai.studio/apps/0566ecc8-da82-4636-b505-4c9267e02aed
+1.  **Export to GitHub**: Use the "Export to GitHub" option in the AI Studio settings.
+2.  **Enable GitHub Pages**:
+    *   Go to your repository settings on GitHub.
+    *   Navigate to **Pages** in the left sidebar.
+    *   Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3.  **Automatic Deployment**: The included GitHub Action will automatically build and deploy your website every time you push to the `main` branch.
 
-## Run Locally
+## Local Development
 
-**Prerequisites:**  Node.js
+1.  Clone the repository.
+2.  Run `npm install`.
+3.  Run `npm run dev`.
+4.  Open `http://localhost:3000`.
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+*   3D Robot character with interactive animations.
+*   Holographic market growth charts.
+*   Manual navigation for investor presentations.
+*   AI-powered voice narration (requires Gemini API key).
