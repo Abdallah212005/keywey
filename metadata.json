@@ -1,0 +1,5 @@
+{
+  "name": "Robot Spline Experience",
+  "description": "An interactive 3D robot experience powered by Spline.",
+  "requestFramePermissions": []
+}
